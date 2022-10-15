@@ -3,20 +3,21 @@
 /**
  * main - prints all the numbers of base 16 in lowercas
  * followed by a new line
- * Return: Always 0 (Success
+ * Return: Always 0
  */
 int main(void)
 {
-	int n;
-	char ch;
+	char c;
+	char d = '0';
 
-	or (n = 48; n < 58; n++)
+	while (d <= '9')
 	{
-		putchar(n);
+		putchar(d);
+		d++;
 	}
-	for (ch = 'a'; ch <= 'f'; ch++)
+	for (ch = 'a'; ch <= 'f'; c++)
 	{
-		putchar(ch);
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
